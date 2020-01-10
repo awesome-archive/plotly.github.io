@@ -1,15 +1,15 @@
 ---
 layout: excel-tutorial-single_layout
-title: Make a Chart with a Subplot with Plotly and Excel
-subtitle: Chart with a Subplot with Plotly
-permalink: /excel/subplots
+title: Make a Chart with a Subplot with Chart Studio and Excel
+subtitle: Chart with a Subplot with Chart Studio
+permalink: /excel/subplots/
 imageurl: https://images.plot.ly/excel/subplots-excel/thumbnail1-subplot.png
 state: active
-tags: excel 
-meta_description: A tutorial on how to make a subplot online with Excel. Follow our step-by-step tutorial to make a subplot for free and online with Plotly.
+tags: excel
+meta_description: A tutorial on how to make a subplot online with Excel. Follow our step-by-step tutorial to make a subplot for free and online with Chart Studio.
 popularity: featured
 section: Layouts
-actioncall: Make this Chart with a Subplot with Plotly
+actioncall: Make this Chart with a Subplot with Chart Studio
 actioncall-url: https://plot.ly/6875/~Dreamshot/?plot_type=Line%20plot
 download-url: https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv.zip
 
@@ -29,13 +29,13 @@ otherlang: Know how to program? See how to create this in [Python](https://plot.
 live-graph: <iframe width="100%" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~Dreamshot/2050.embed"></iframe>
 
 steps:
- - title: Upload your Excel data to Plotly's grid
+ - title: Upload your Excel data to Chart Studio's grid
    sub-steps:
     - copy: "Open the data file for this tutorial in Excel. You can download the file here in [CSV format](https://raw.githubusercontent.com/plotly/datasets/master/subplots.csv)"
       img: "![Excel view](https://images.plot.ly/excel/subplots-excel/excel-view-subplots.png)"
- - title: Head to Plotly
+ - title: Head to Chart Studio
    sub-steps:
-    - copy: "Head to [Plotly's Workspace](https://plot.ly/plot) and sign into your free Plotly account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Plotly's grid. For more about Plotly's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
+    - copy: "Head to [the Chart Studio Workspace](https://plot.ly/plot) and sign into your free Chart Studio account. Go to 'Import,' click 'Upload a file,' then choose your Excel file to upload. Your Excel file will now open in Chart Studio's grid. For more about Chart Studio's grid, see [this tutorial](help.plot.ly/add-data-to-the-plotly-grid/)"
       img: "![Import data](https://images.plot.ly/excel/subplots-excel/import-data-subplots.png)"
  - title: Creating Your Chart
    sub-steps:
@@ -45,7 +45,7 @@ steps:
       img: "![Original](https://images.plot.ly/excel/subplots-excel/original-subplot.png)"
     - copy: "Head to the TRACES popover and access Col4 from the dropdown menu. From 'Axes' you'll want to click New Axis/Subplot bar. From New Axis/Subplot you'll want to click 'Stacked' under New Subplot."
       img: "![Create First Subplot](https://images.plot.ly/excel/subplots-excel/create-subplot1-subplot.png)"
-    - copy: "Now, head back to the TRACES popover. Shift Col6 and Col7 to the new subplot. To do this, change the axes to X2 and Y2 in both cases." 
+    - copy: "Now, head back to the TRACES popover. Shift Col6 and Col7 to the new subplot. To do this, change the axes to X2 and Y2 in both cases."
       img: "![Reassign Axes1](https://images.plot.ly/excel/subplots-excel/reassign-axis-1-subplot.png)"
     - copy: "Take a moment to resize your plot to something less wide. A width of 1000 and a height of 800 seems reasonable. Head to the layout menu to do this."
       img: "![Resize](https://images.plot.ly/excel/subplots-excel/resize-subplot.png)"
@@ -67,8 +67,8 @@ steps:
       img: "![Styling](https://images.plot.ly/excel/subplots-excel/styling-subplot.png)"
     - copy: "Your plot should now look something like this. In order to get the graph at the top of the tutorial, you’ll need to style it a little more."
       img: "![Final](https://images.plot.ly/excel/subplots-excel/final-subplot.png)"
-    - copy: "We used a note to link to our source data. You can download your finished Plotly graph to embed in your Excel workbook. We also recommend including the Plotly link to the graph inside your Excel workbook for easy access to the interactive Plotly version. Get the link to your graph by clicking the 'Share' button. Download an image of your Plotly graph by clicking EXPORT on the toolbar."
+    - copy: "We used a note to link to our source data. You can download your finished Chart Studio graph to embed in your Excel workbook. We also recommend including the Chart Studio link to the graph inside your Excel workbook for easy access to the interactive Chart Studio version. Get the link to your graph by clicking the 'Share' button. Download an image of your Chart Studio graph by clicking EXPORT on the toolbar."
       img: "![Export](https://images.plot.ly/excel/subplots-excel/export-subplot.png)"
-    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Plotly graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Plotly graph link in a cell for easy access to the interactive Plotly version."
+    - copy: "To add the Excel file to your workbook, click where you want to insert the picture inside Excel. On the INSERT tab inside Excel, in the ILLUSTRATIONS group, click PICTURE. Locate the Chart Studio graph image that you downloaded and then double-click it. Notice that we also copy-pasted the Chart Studio graph link in a cell for easy access to the interactive Chart Studio version."
       img: "![Excel workbook](https://images.plot.ly/excel/subplots-excel/excel-subplot.png)"
 ---

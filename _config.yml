@@ -1,4 +1,4 @@
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
 #  - algoliasearch-jekyll
@@ -8,11 +8,14 @@ staticurl: https://plot.ly/gh-pages/documentation/static/
 #stylesheet: https://s3-us-west-1.amazonaws.com/plotly-tutorials/assets/web-excel/css/main.css
 stylesheet: /styles/main.css
 
+title: Plotly Help Center
+
 exclude:
   - .sass-cache
   - scss
   - node_modules
   - gulpfile.js
+  - vendor
 
 #
 #algolia:
